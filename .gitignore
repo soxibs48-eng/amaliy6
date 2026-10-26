@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.vercel/
+*.py
+clean_body.html
+extracted_styles.css
+extracted_text.txt
+assets_list.txt
+indicius_thumb.png
+assets/svgs/

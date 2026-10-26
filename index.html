@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indicius - Design Agency | Human-Centered Branding & Digital Products</title>
+  
+  <meta name="description" content="We're a team of humans with the strategy, tools, and talent to build outstanding branding solutions and digital products.">
+  <meta property="og:title" content="Indicius - Design Agency">
+  <meta property="og:description" content="Designing for a more human-centered world. Together.">
+  <meta property="og:image" content="assets/images/operators-guild-cover.png">
+  <meta property="og:type" content="website">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- Google Fonts: Archivo & DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Indicius Home">
+        Indicius
+        <span class="logo-dot"></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#team" class="nav-link">About</a>
+        <a href="#articles" class="nav-link">Culture</a>
+        <a href="#contact" class="nav-link open-contact-modal">Contact</a>
+        
+        <div class="lang-switch">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="es">ES</button>
+        </div>
+      </nav>
+
+      <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-content">
+        <h1 class="hero-title">
+          Designing for a more human-centered world.
+          <br>
+          <span class="highlight-yellow">Together.</span>
+        </h1>
+
+        <div class="hero-graphic">
+          <div class="pill-circles">
+            <div class="pill-circle c-coral" title="Empathy & Passion"></div>
+            <div class="pill-circle c-navy" title="Structure & Depth"></div>
+            <div class="pill-circle c-yellow" title="Innovation & Clarity"></div>
+            <div class="pill-circle c-white" title="Simplicity & Purity"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Are / Core Pillars Section -->
+    <section class="who-we-are-section" id="about">
+      <div class="container">
+        <div class="who-grid">
+          <div class="who-left">
+            <p class="who-statement">
+              We’re a team of humans with the <strong>strategy</strong>, <strong>tools</strong>, and <strong>talent</strong> to build outstanding branding solutions and digital products.
+            </p>
+          </div>
+
+          <div class="who-right">
+            <div class="pillars-triangle">
+              <div class="pillar-badge p-blue" title="Humans First">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <span class="badge-label">Humans</span>
+              </div>
+              <div class="pillars-row-bottom">
+                <div class="pillar-badge p-coral" title="Tailored Strategy">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                  </svg>
+                  <span class="badge-label">Strategy</span>
+                </div>
+                <div class="pillar-badge p-yellow" title="Cutting-Edge Tools">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                  <span class="badge-label">Tools</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pillar-descriptions">
+          <div class="pillar-card card-blue">
+            <h3>
+              <i class="fa-solid fa-users"></i> Humans
+            </h3>
+            <p>Notably improving people's lives, everyday experience, and holistic wellbeing through empathetic digital products.</p>
+          </div>
+          <div class="pillar-card card-coral">
+            <h3>
+              <i class="fa-solid fa-compass"></i> Strategy
+            </h3>
+            <p>Choosing the best processes, proven methodologies, and strategic insight tailored for the specific challenge at hand.</p>
+          </div>
+          <div class="pillar-card card-yellow">
+            <h3>
+              <i class="fa-solid fa-toolbox"></i> Tools
+            </h3>
+            <p>Sprint workshops, modern design systems, cutting-edge online collaborative tools, and industry best practices, always.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Case Studies Section -->
+    <section class="case-studies-section" id="work">
+      <div class="container">
+        <!-- Case Study 1: Salsa -->
+        <article class="case-card">
+          <div class="case-visual">
+            <img src="assets/images/salsa-branding-cover.png" alt="Salsa Branding Case Study cover" loading="lazy">
+          </div>
+          <div class="case-info">
+            <span class="case-tag">Salsa • Brand & Identity</span>
+            <h2 class="case-title">Minimalist branding for authority in the payroll sphere</h2>
+            <a href="#contact" class="case-link open-contact-modal">
+              View Case Study
+              <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Case Study 2: Operators Guild -->
+        <article class="case-card reverse">
+          <div class="case-info">
+            <span class="case-tag">Operators Guild • Digital Platform</span>
+            <h2 class="case-title">Bringing together the world's top operators with an elegant, people-focused brand</h2>
+            <a href="#contact" class="case-link open-contact-modal">
+              View Case Study
+              <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </div>
+          <div class="case-visual">
+            <img src="assets/images/operators-guild-cover.png" alt="Operators Guild platform UI cover" loading="lazy">
+          </div>
+        </article>
+
+        <div class="case-cta-center">
+          <a href="#work" class="btn-primary-pill open-contact-modal">
+            View all case studies
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="services-grid">
+          <div class="services-left">
+            <div class="services-tabs">
+              <button type="button" class="service-tab-btn active" data-tab="sprint">Design Sprint.</button>
+              <button type="button" class="service-tab-btn" data-tab="branding">Branding.</button>
+              <button type="button" class="service-tab-btn" data-tab="products">Digital Products.</button>
+            </div>
+
+            <h2 class="service-heading" id="service-heading">Design Sprint Together.</h2>
+            <p class="service-description" id="service-description">
+              Solve tough problems in a single week through this structured, step-by-step user experience design workshop used by the most innovative companies in the world.
+            </p>
+
+            <a href="#contact" class="service-link open-contact-modal">
+              Discover our services & processes
+              <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </div>
+
+          <div class="services-right service-illustration-wrapper">
+            <div class="service-illustration-card">
+              <div class="illustration-svg-box">
+                <svg width="220" height="190" viewBox="0 0 220 190" fill="none">
+                  <!-- Team Collaboration Vector Graphic -->
+                  <rect x="25" y="30" width="170" height="110" rx="16" fill="#05051E" />
+                  <rect x="40" y="45" width="60" height="20" rx="6" fill="#FFCC00" />
+                  <rect x="110" y="45" width="70" height="20" rx="6" fill="#3098F3" />
+                  <rect x="40" y="75" width="140" height="8" rx="4" fill="#ffffff" opacity="0.3" />
+                  <rect x="40" y="90" width="100" height="8" rx="4" fill="#ffffff" opacity="0.3" />
+                  <rect x="40" y="105" width="120" height="8" rx="4" fill="#ffffff" opacity="0.3" />
+                  
+                  <!-- Floating Accent Badges -->
+                  <circle cx="45" cy="145" r="22" fill="#FF5B60" />
+                  <path d="M40 145L44 149L51 141" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  
+                  <circle cx="175" cy="145" r="22" fill="#3098F3" />
+                  <path d="M175 137V153M167 145H183" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+
+              <div class="service-badges-row">
+                <span class="s-pill" id="service-pill-1">1-Week Prototype</span>
+                <span class="s-pill" id="service-pill-2">User Testing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles / Insights Section -->
+    <section class="articles-section" id="articles">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">We have a lot to say</h2>
+          <p class="section-subtitle">Articles about human-centered design, agency craft, and culture by members of the Indi team.</p>
+        </div>
+
+        <div class="articles-grid">
+          <!-- Article 1 -->
+          <article class="article-card">
+            <div>
+              <span class="article-tag">Work culture</span>
+              <h3 class="article-title">How all companies can learn from Argentina’s work culture</h3>
+            </div>
+            <a href="#contact" class="article-link open-contact-modal">
+              Read this article
+              <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="article-card">
+            <div>
+              <span class="article-tag">Design Strategy</span>
+              <h3 class="article-title">Unblock Your Creativity: Mastering the Art of Idea Generation</h3>
+            </div>
+            <a href="#contact" class="article-link open-contact-modal">
+              Read this article
+              <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="article-card">
+            <div>
+              <span class="article-tag">Branding</span>
+              <h3 class="article-title">How to build real brands in an AI-accelerated digital landscape</h3>
+            </div>
+            <a href="#contact" class="article-link open-contact-modal">
+              Read this article
+              <span class="arrow-circle">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </article>
+        </div>
+
+        <div class="articles-cta-center">
+          <a href="#articles" class="btn-primary-pill open-contact-modal">
+            Discover all the articles
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet The Humans / Team Section -->
+    <section class="team-section" id="team">
+      <div class="container team-container">
+        <!-- Floating Team Avatars (10 real team members) -->
+        <div class="avatar-bubble av-1" title="Tomas Peralta • Co-Founder">
+          <img src="assets/images/team-1.jpg" alt="Tomas Peralta" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-2" title="Agustina Fainguersch • Product Designer">
+          <img src="assets/images/team-2.jpg" alt="Agustina Fainguersch" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-3" title="Martin Romero • Brand Strategist">
+          <img src="assets/images/team-3.jpg" alt="Martin Romero" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-4" title="Camila Gomez • UX Researcher">
+          <img src="assets/images/team-4.jpg" alt="Camila Gomez" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-5" title="Julian Rossi • Creative Technologist">
+          <img src="assets/images/team-5.jpg" alt="Julian Rossi" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-6" title="Sofia Benitez • Lead UI Designer">
+          <img src="assets/images/team-6.jpg" alt="Sofia Benitez" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-7" title="Lucas Fernandez • Motion Designer">
+          <img src="assets/images/team-7.jpg" alt="Lucas Fernandez" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-8" title="Valentina Diaz • Operations Lead">
+          <img src="assets/images/team-8.jpg" alt="Valentina Diaz" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-9" title="Mateo Alvarez • Frontend Architect">
+          <img src="assets/images/team-9.jpg" alt="Mateo Alvarez" loading="lazy">
+        </div>
+        <div class="avatar-bubble av-10" title="Lucia Morales • Sprint Facilitator">
+          <img src="assets/images/team-10.jpg" alt="Lucia Morales" loading="lazy">
+        </div>
+
+        <!-- Central Circle -->
+        <div class="team-center-card">
+          <h2>Meet the humans of Indicius</h2>
+          <p>We believe genuine innovation happens when both our internal team and our clients grow and thrive together.</p>
+          <a href="#contact" class="btn-primary-pill open-contact-modal">Get to know us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <!-- Top CTA Card -->
+      <div class="footer-cta-card">
+        <div class="footer-cta-text">
+          <h2>We want to hear about what you're building</h2>
+          <a href="#contact" class="btn-yellow-pill open-contact-modal">
+            Let's chat
+            <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i>
+          </a>
+        </div>
+
+        <!-- Geometric Abstract Shapes -->
+        <div class="footer-geometric-decor">
+          <div class="decor-half-yellow"></div>
+          <div class="decor-circle-blue"></div>
+        </div>
+      </div>
+
+      <!-- Footer Columns -->
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <h4>Indicius</h4>
+          <p>From Argentina to the world. Designing for a more human-centered digital world.</p>
+          <a href="mailto:hello@indicius.com" class="footer-email-link">hello@indicius.com</a>
+          <div>
+            <span class="footer-badge-verify">
+              <i class="fa-solid fa-certificate" style="color: var(--accent-yellow);"></i>
+              Verified on TechBehemoths
+            </span>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">About</a></li>
+            <li><a href="#contact" class="open-contact-modal">Contact</a></li>
+            <li><a href="#articles">Culture</a></li>
+            <li><a href="#articles">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter-col">
+          <h4>Indi updates. No spam</h4>
+          <p>Get insights on human-centered design, UI/UX trends, and brand strategy directly to your inbox.</p>
+          
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn">Join</button>
+          </form>
+          <div class="newsletter-message" id="newsletter-msg"></div>
+
+          <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener" class="social-icon" aria-label="Dribbble">
+              <i class="fa-brands fa-dribbble"></i>
+            </a>
+            <a href="https://behance.net" target="_blank" rel="noopener" class="social-icon" aria-label="Behance">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© Indicius 2026. All rights reserved.</p>
+        <p>Human-Centered Design Agency • Buenos Aires & Worldwide</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div class="modal-overlay" id="contact-modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <h3>Let's build something great</h3>
+      <p>Tell us about your product, timeline, and vision. We will reply within 24 hours.</p>
+
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Alex Morgan" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email">Email Address</label>
+          <input type="email" id="contact-email" placeholder="alex@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-message">Project Overview</label>
+          <textarea id="contact-message" rows="4" placeholder="Briefly describe what you're building..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary-pill" style="width: 100%;">
+          Send Message
+          <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
